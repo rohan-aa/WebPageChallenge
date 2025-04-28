@@ -1,0 +1,183 @@
+@media screen and (max-width: 1024px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #card-courses {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 3500px;
+  }
+#about{
+  display: flex;
+  flex-direction: column;
+}
+#about .experience{
+  margin: 20px;
+}
+  .item1, .item2, .item3, .item4, .item5, .item6 {
+    width: 90% !important;
+    height: 50px;
+    margin: 10px 0px;
+  }
+  .info {
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  #student-work .studbg {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  #review .review-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    background-position: center;
+    background-size: cover;
+  }
+  .content{
+    padding: 120px 0px;
+  }
+
+  .content h1 {
+    font-size: 2em;
+    padding: 140px 20px 20px;
+    text-align: center;
+  }
+
+  .content p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .ul-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 10px;
+  }
+  footer .footerinfo {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 40px 20px;
+  }
+
+  footer .company,
+  footer .useful,
+  footer .getintouch,
+  .footlogo {
+    margin: 20px 0;
+  }
+
+  hr {
+    width: 80%;
+  
+}
+}
+
+@media screen and (max-width: 600px) {
+  .content{
+    padding: 160px 0px;
+  }
+  .content h1 {
+    font-size: 1.5em;
+  }
+
+  .info h4 {
+    font-size: 1.2em;
+  }
+
+  .info p {
+    font-size: 0.9em;
+  }
+
+  .nav .btn button {
+    font-size: 0.9em;
+    padding: 6px 14px;
+  }
+  footer .footerinfo {
+    flex-direction: column;
+    align-items: center;
+    height: 1600px;
+  }
+  .footlogo img{
+    margin: 0px 0px 0px 20px;
+  }
+  .footlogo h4{
+    text-align: center;
+  }
+  .footlogo p{
+    text-align: center;
+    margin: 20px 0px 0px 12px;
+  }
+
+  .footerinfo > div {
+    max-width: 90%;
+  }
+  .footerinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+  }
+
+  .footerinfo .useful ul li{
+    text-align: center;
+  }
+  .footerinfo .company ul li{
+    text-align: center;
+  }
+  .footerinfo .company h3{
+    text-align: center;
+  }
+  .footerinfo .useful h3{
+    text-align: center;
+  }
+  .footerinfo .getintouch h3{
+    text-align: center;
+  }
+  .getintouch .mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .getintouch .phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .getintouch .location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  hr {
+    width: 600px;
+  }
+
+  .copy p {
+    font-size: 0.8rem;
+  }
+}
+
